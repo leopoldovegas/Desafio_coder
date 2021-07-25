@@ -74,14 +74,14 @@ section{
     float: left;
     width: 250px / 600px * 100%;
     height: 500px;
-    background-color: chocolate;
+    background-color: rgb(210, 30, 105);
 }
 
     aside{
         float: left;
         width: 350px / 600px * 100%;
         height: 500px;
-        background-color: tomato;
+        background-color: rgb(123, 255, 71);
   }
  
     /* Mixin */
@@ -108,9 +108,9 @@ section{
         @if ($colorPrincipal == negro){
             color: black;
      } @else if ($colorPrincipal == rojizo){
-         color:  rgb(231, 43, 90);
+         color:  rgb(60, 30, 194);
      } @else{
-         color: burlywood;
+         color: rgb(143, 85, 9);
      }
     }
    
