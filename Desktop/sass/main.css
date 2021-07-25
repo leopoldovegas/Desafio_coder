@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Header */
+.titulo {
+  background-color: #c2c2c2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 16px 0;
+}
+
+.titulo nav {
+  -ms-flex-preferred-size: 65%;
+      flex-basis: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.titulo nav a {
+  margin-left: 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+/*  Contenido  */
+.contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgba(250, 250, 250, 0.8);
+  padding: 40px 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contenido h1, .contenido h2 {
+  font-size: 30px;
+  margin-bottom: 80px;
+  text-align: center;
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.contenido h1 p, .contenido h2 p {
+  font-weight: 20px;
+}
+
+/* Operaciones Sass 2 */
+.conteiner {
+  width: 100%;
+  margin: 0,auto;
+}
+
+section {
+  float: left;
+  width: 41.66667%;
+  height: 500px;
+  background-color: chocolate;
+}
+
+aside {
+  float: left;
+  width: 58.33333%;
+  height: 500px;
+  background-color: tomato;
+}
+
+/* Mixin */
+p {
+  font-size: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+}
+
+h1, h2, h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #e72b5a;
+}
+
+a, p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #21351b;
+}
+
+li {
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo {
+  max-width: 100%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,29 @@
+
+
+$titulo: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+$texto: Verdana, Geneva, Tahoma, sans-serif;
+
+$colorPrincipal: rgb(231, 43, 90);
+$colorSecundario: rgb(33, 53, 27);
+
+
+h1, h2, h3 {
+    font-family: $titulo;
+    color: $colorPrincipal;
+}
+
+a, p {
+    font-family: $texto;
+   color: $colorSecundario;
+}
+
+
+li {
+    list-style: none;
+    font-family: $texto;
+}
+
+.titulo {
+    max-width:100%;
+    margin: 0 auto;
+}
